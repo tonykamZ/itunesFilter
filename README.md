@@ -1,4 +1,4 @@
-# itunesFilter 🎵
+![itunes_filter_3](https://github.com/tonykamZ/itunesFilter/assets/67361009/347b6bf0-060c-4446-bb63-7f853236be97)# itunesFilter 🎵
 An iOS app written in SwiftUI that allows users to search, filter and sort songs using the iTunes API.
 ## Table of Contents
 
@@ -36,9 +36,9 @@ Filtering: Users can perform real-time filtering of search results by typing key
 
 Sorting: Users can sort songs by song name or album name.
 
-<img src="https://github.com/tonykamZ/tuneFilter/assets/67361009/ccdd03df-2847-458e-9c9e-0d2ba3c1a301" width="160" height="300">
-<img src="https://github.com/tonykamZ/tuneFilter/assets/67361009/01df9cef-0e5a-4f64-881a-26303c94d986" width="160" height="300">
-<img src="https://github.com/tonykamZ/tuneFilter/assets/67361009/2dfe1d0a-f12c-4973-b78e-16db0a21c941" width="160" height="300">
+<img src="https://github.com/tonykamZ/itunesFilter/assets/67361009/107ea612-fb37-45f6-9754-4bec4522decd" width="160" height="300">
+<img src="https://github.com/tonykamZ/itunesFilter/assets/67361009/e8e02239-09c3-4d1d-a863-e23800329647" width="160" height="300">
+<img src="https://github.com/tonykamZ/itunesFilter/assets/67361009/a91ac244-32b8-40fe-9412-21102ef7216f" width="160" height="300">
 
 Feel free to explore TuneFilter and enjoy discovering new music right at your fingertips!
 
