@@ -1,4 +1,4 @@
-# TuneFilter 🎵
+# itunesFilter 🎵
 An iOS app written in SwiftUI that allows users to search, filter and sort songs using the iTunes API.
 ## Table of Contents
 
@@ -11,13 +11,13 @@ An iOS app written in SwiftUI that allows users to search, filter and sort songs
 To install and run TuneFilter on your iOS device, follow these steps:
 
 1. Clone the repository:
-$ git clone https://github.com/tonykamZ/TuneFilter.git
+$ git clone https://github.com/tonykamZ/itunesFilter.git
 
 2. Open the folder with latest Xcode, which is available on the App Store.
 
 3. Wait for Xcode to initialize the project and index the files
 
-4. In Xcode, go to "Targets" > "TuneFilter" > "Signing & Capabilities".
+4. In Xcode, go to "Targets" > "TuneFinder" > "Signing & Capabilities".
 
 5. Log in to your Apple ID and check the "Automatically manage signing" option to create the signing certificate
 
