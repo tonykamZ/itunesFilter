@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct SearchResult: View {
+struct SearchResultItem: View {
     let result: iTuneFilterApiResponse
 
     var body: some View {
@@ -20,7 +20,7 @@ struct SearchResult: View {
                     .font(.caption)
                     .foregroundColor(.secondary)
             }
-            .id(result.id) 
+            .id(result.id)
             Spacer()
         }
         .padding(.vertical, 4)

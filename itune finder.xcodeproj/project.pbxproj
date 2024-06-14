@@ -7,33 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EA26E2972C1C095A000EB51C /* searchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E2962C1C095A000EB51C /* searchResults.swift */; };
-		EA26E2982C1C095A000EB51C /* searchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E2962C1C095A000EB51C /* searchResults.swift */; };
+		EA26E2972C1C095A000EB51C /* searchResultsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E2962C1C095A000EB51C /* searchResultsList.swift */; };
+		EA26E2982C1C095A000EB51C /* searchResultsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E2962C1C095A000EB51C /* searchResultsList.swift */; };
 		EA26E29C2C1C0967000EB51C /* searchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E29B2C1C0967000EB51C /* searchBar.swift */; };
 		EA26E29D2C1C0967000EB51C /* searchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E29B2C1C0967000EB51C /* searchBar.swift */; };
 		EA26E2A12C1C0976000EB51C /* entitySelectionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E2A02C1C0976000EB51C /* entitySelectionRow.swift */; };
 		EA26E2A22C1C0976000EB51C /* entitySelectionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E2A02C1C0976000EB51C /* entitySelectionRow.swift */; };
-		EA26E2A62C1C0982000EB51C /* loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E2A52C1C0982000EB51C /* loading.swift */; };
-		EA26E2A72C1C0982000EB51C /* loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E2A52C1C0982000EB51C /* loading.swift */; };
 		EA26E2AB2C1C098C000EB51C /* noResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E2AA2C1C098C000EB51C /* noResults.swift */; };
 		EA26E2AC2C1C098C000EB51C /* noResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E2AA2C1C098C000EB51C /* noResults.swift */; };
 		EA26E2B02C1C099B000EB51C /* totalSearchCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E2AF2C1C099B000EB51C /* totalSearchCount.swift */; };
 		EA26E2B12C1C099B000EB51C /* totalSearchCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E2AF2C1C099B000EB51C /* totalSearchCount.swift */; };
-		EA26E2B52C1C09A9000EB51C /* selectedCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E2B42C1C09A9000EB51C /* selectedCountry.swift */; };
-		EA26E2B62C1C09A9000EB51C /* selectedCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E2B42C1C09A9000EB51C /* selectedCountry.swift */; };
 		EA26E2BA2C1C09B7000EB51C /* pageNavigationControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E2B92C1C09B7000EB51C /* pageNavigationControls.swift */; };
 		EA26E2BB2C1C09B7000EB51C /* pageNavigationControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E2B92C1C09B7000EB51C /* pageNavigationControls.swift */; };
-		EA26E2BF2C1C09C1000EB51C /* searchResultsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E2BE2C1C09C1000EB51C /* searchResultsList.swift */; };
-		EA26E2C02C1C09C1000EB51C /* searchResultsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E2BE2C1C09C1000EB51C /* searchResultsList.swift */; };
-		EA26E2C42C1C09CC000EB51C /* searchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E2C32C1C09CC000EB51C /* searchResult.swift */; };
-		EA26E2C52C1C09CC000EB51C /* searchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E2C32C1C09CC000EB51C /* searchResult.swift */; };
+		EA26E2C42C1C09CC000EB51C /* searchResultItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E2C32C1C09CC000EB51C /* searchResultItem.swift */; };
+		EA26E2C52C1C09CC000EB51C /* searchResultItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E2C32C1C09CC000EB51C /* searchResultItem.swift */; };
 		EA26E2C92C1C09D9000EB51C /* homeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E2C82C1C09D9000EB51C /* homeViewModel.swift */; };
 		EA26E2CA2C1C09D9000EB51C /* homeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E2C82C1C09D9000EB51C /* homeViewModel.swift */; };
 		EA26E2CE2C1C09E6000EB51C /* iTuneFilterApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E2CD2C1C09E6000EB51C /* iTuneFilterApiResponse.swift */; };
 		EA26E2CF2C1C09E6000EB51C /* iTuneFilterApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E2CD2C1C09E6000EB51C /* iTuneFilterApiResponse.swift */; };
-		EA26E2E42C1C0CDF000EB51C /* initialHomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E2E32C1C0CDF000EB51C /* initialHomePageView.swift */; };
-		EA26E2E52C1C0CDF000EB51C /* initialHomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E2E32C1C0CDF000EB51C /* initialHomePageView.swift */; };
-		EA26E3032C1C837B000EB51C /* itunefinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E3022C1C837B000EB51C /* itunefinderTests.swift */; };
+		EA26E3032C1C837B000EB51C /* homeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E3022C1C837B000EB51C /* homeViewModelTests.swift */; };
 		EAA7463A2C199247004B97FB /* itune_finderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA746272C199246004B97FB /* itune_finderApp.swift */; };
 		EAA7463B2C199247004B97FB /* itune_finderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA746272C199246004B97FB /* itune_finderApp.swift */; };
 		EAA7463E2C199247004B97FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAA746292C199247004B97FB /* Assets.xcassets */; };
@@ -50,25 +42,29 @@
 			remoteGlobalIDString = EAA7462D2C199247004B97FB;
 			remoteInfo = "itune finder (iOS)";
 		};
+		EA26E3282C1C91A6000EB51C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAA746222C199246004B97FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAA7462D2C199247004B97FB;
+			remoteInfo = "itune finder (iOS)";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EA26E2962C1C095A000EB51C /* searchResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchResults.swift; sourceTree = "<group>"; };
+		EA26E2962C1C095A000EB51C /* searchResultsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchResultsList.swift; sourceTree = "<group>"; };
 		EA26E29B2C1C0967000EB51C /* searchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchBar.swift; sourceTree = "<group>"; };
 		EA26E2A02C1C0976000EB51C /* entitySelectionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = entitySelectionRow.swift; sourceTree = "<group>"; };
-		EA26E2A52C1C0982000EB51C /* loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loading.swift; sourceTree = "<group>"; };
 		EA26E2AA2C1C098C000EB51C /* noResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = noResults.swift; sourceTree = "<group>"; };
 		EA26E2AF2C1C099B000EB51C /* totalSearchCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = totalSearchCount.swift; sourceTree = "<group>"; };
-		EA26E2B42C1C09A9000EB51C /* selectedCountry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectedCountry.swift; sourceTree = "<group>"; };
 		EA26E2B92C1C09B7000EB51C /* pageNavigationControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pageNavigationControls.swift; sourceTree = "<group>"; };
-		EA26E2BE2C1C09C1000EB51C /* searchResultsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchResultsList.swift; sourceTree = "<group>"; };
-		EA26E2C32C1C09CC000EB51C /* searchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchResult.swift; sourceTree = "<group>"; };
+		EA26E2C32C1C09CC000EB51C /* searchResultItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchResultItem.swift; sourceTree = "<group>"; };
 		EA26E2C82C1C09D9000EB51C /* homeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewModel.swift; sourceTree = "<group>"; };
 		EA26E2CD2C1C09E6000EB51C /* iTuneFilterApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTuneFilterApiResponse.swift; sourceTree = "<group>"; };
-		EA26E2E32C1C0CDF000EB51C /* initialHomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = initialHomePageView.swift; sourceTree = "<group>"; };
 		EA26E3002C1C837B000EB51C /* itunefinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = itunefinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA26E3022C1C837B000EB51C /* itunefinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itunefinderTests.swift; sourceTree = "<group>"; };
+		EA26E3022C1C837B000EB51C /* homeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewModelTests.swift; sourceTree = "<group>"; };
 		EA26E3042C1C837B000EB51C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA26E3232C1C91A6000EB51C /* homePageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = homePageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAA746272C199246004B97FB /* itune_finderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itune_finderApp.swift; sourceTree = "<group>"; };
 		EAA746292C199247004B97FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAA7462E2C199247004B97FB /* itune finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "itune finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,6 +77,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		EA26E2FD2C1C837B000EB51C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA26E3202C1C91A6000EB51C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -120,13 +123,13 @@
 			path = models;
 			sourceTree = "<group>";
 		};
-		EA26E3012C1C837B000EB51C /* itunefinderTests */ = {
+		EA26E3012C1C837B000EB51C /* homeViewModelTests */ = {
 			isa = PBXGroup;
 			children = (
-				EA26E3022C1C837B000EB51C /* itunefinderTests.swift */,
+				EA26E3022C1C837B000EB51C /* homeViewModelTests.swift */,
 				EA26E3042C1C837B000EB51C /* Info.plist */,
 			);
-			path = itunefinderTests;
+			path = homeViewModelTests;
 			sourceTree = "<group>";
 		};
 		EAA746212C199246004B97FB = {
@@ -135,7 +138,7 @@
 				EAA746262C199246004B97FB /* Shared */,
 				EAA746302C199247004B97FB /* iOS */,
 				EAA746372C199247004B97FB /* macOS */,
-				EA26E3012C1C837B000EB51C /* itunefinderTests */,
+				EA26E3012C1C837B000EB51C /* homeViewModelTests */,
 				EAA7462F2C199247004B97FB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 				EAA7462E2C199247004B97FB /* itune finder.app */,
 				EAA746362C199247004B97FB /* itune finder.app */,
 				EA26E3002C1C837B000EB51C /* itunefinderTests.xctest */,
+				EA26E3232C1C91A6000EB51C /* homePageTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -183,17 +187,13 @@
 			isa = PBXGroup;
 			children = (
 				EAA7464A2C1992C4004B97FB /* home.swift */,
-				EA26E2962C1C095A000EB51C /* searchResults.swift */,
+				EA26E2962C1C095A000EB51C /* searchResultsList.swift */,
 				EA26E29B2C1C0967000EB51C /* searchBar.swift */,
 				EA26E2A02C1C0976000EB51C /* entitySelectionRow.swift */,
-				EA26E2A52C1C0982000EB51C /* loading.swift */,
 				EA26E2AA2C1C098C000EB51C /* noResults.swift */,
 				EA26E2AF2C1C099B000EB51C /* totalSearchCount.swift */,
-				EA26E2B42C1C09A9000EB51C /* selectedCountry.swift */,
 				EA26E2B92C1C09B7000EB51C /* pageNavigationControls.swift */,
-				EA26E2BE2C1C09C1000EB51C /* searchResultsList.swift */,
-				EA26E2C32C1C09CC000EB51C /* searchResult.swift */,
-				EA26E2E32C1C0CDF000EB51C /* initialHomePageView.swift */,
+				EA26E2C32C1C09CC000EB51C /* searchResultItem.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -217,6 +217,24 @@
 			name = itunefinderTests;
 			productName = itunefinderTests;
 			productReference = EA26E3002C1C837B000EB51C /* itunefinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA26E3222C1C91A6000EB51C /* homePageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA26E32A2C1C91A6000EB51C /* Build configuration list for PBXNativeTarget "homePageTests" */;
+			buildPhases = (
+				EA26E31F2C1C91A6000EB51C /* Sources */,
+				EA26E3202C1C91A6000EB51C /* Frameworks */,
+				EA26E3212C1C91A6000EB51C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA26E3292C1C91A6000EB51C /* PBXTargetDependency */,
+			);
+			name = homePageTests;
+			productName = homePageTests;
+			productReference = EA26E3232C1C91A6000EB51C /* homePageTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		EAA7462D2C199247004B97FB /* itune finder (iOS) */ = {
@@ -266,6 +284,10 @@
 						CreatedOnToolsVersion = 12.4;
 						TestTargetID = EAA7462D2C199247004B97FB;
 					};
+					EA26E3222C1C91A6000EB51C = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = EAA7462D2C199247004B97FB;
+					};
 					EAA7462D2C199247004B97FB = {
 						CreatedOnToolsVersion = 12.4;
 					};
@@ -290,12 +312,20 @@
 				EAA7462D2C199247004B97FB /* itune finder (iOS) */,
 				EAA746352C199247004B97FB /* itune finder (macOS) */,
 				EA26E2FF2C1C837B000EB51C /* itunefinderTests */,
+				EA26E3222C1C91A6000EB51C /* homePageTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		EA26E2FE2C1C837B000EB51C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA26E3212C1C91A6000EB51C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -325,7 +355,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA26E3032C1C837B000EB51C /* itunefinderTests.swift in Sources */,
+				EA26E3032C1C837B000EB51C /* homeViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA26E31F2C1C91A6000EB51C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,19 +372,15 @@
 			files = (
 				EAA7464B2C1992C4004B97FB /* home.swift in Sources */,
 				EA26E29C2C1C0967000EB51C /* searchBar.swift in Sources */,
-				EA26E2A62C1C0982000EB51C /* loading.swift in Sources */,
 				EA26E2CE2C1C09E6000EB51C /* iTuneFilterApiResponse.swift in Sources */,
 				EA26E2A12C1C0976000EB51C /* entitySelectionRow.swift in Sources */,
 				EA26E2BA2C1C09B7000EB51C /* pageNavigationControls.swift in Sources */,
 				EA26E2C92C1C09D9000EB51C /* homeViewModel.swift in Sources */,
 				EA26E2B02C1C099B000EB51C /* totalSearchCount.swift in Sources */,
 				EAA7463A2C199247004B97FB /* itune_finderApp.swift in Sources */,
-				EA26E2BF2C1C09C1000EB51C /* searchResultsList.swift in Sources */,
-				EA26E2B52C1C09A9000EB51C /* selectedCountry.swift in Sources */,
 				EA26E2AB2C1C098C000EB51C /* noResults.swift in Sources */,
-				EA26E2C42C1C09CC000EB51C /* searchResult.swift in Sources */,
-				EA26E2972C1C095A000EB51C /* searchResults.swift in Sources */,
-				EA26E2E42C1C0CDF000EB51C /* initialHomePageView.swift in Sources */,
+				EA26E2C42C1C09CC000EB51C /* searchResultItem.swift in Sources */,
+				EA26E2972C1C095A000EB51C /* searchResultsList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,19 +390,15 @@
 			files = (
 				EAA7464C2C1992C4004B97FB /* home.swift in Sources */,
 				EA26E29D2C1C0967000EB51C /* searchBar.swift in Sources */,
-				EA26E2A72C1C0982000EB51C /* loading.swift in Sources */,
 				EA26E2CF2C1C09E6000EB51C /* iTuneFilterApiResponse.swift in Sources */,
 				EA26E2A22C1C0976000EB51C /* entitySelectionRow.swift in Sources */,
 				EA26E2BB2C1C09B7000EB51C /* pageNavigationControls.swift in Sources */,
 				EA26E2CA2C1C09D9000EB51C /* homeViewModel.swift in Sources */,
 				EA26E2B12C1C099B000EB51C /* totalSearchCount.swift in Sources */,
 				EAA7463B2C199247004B97FB /* itune_finderApp.swift in Sources */,
-				EA26E2C02C1C09C1000EB51C /* searchResultsList.swift in Sources */,
-				EA26E2B62C1C09A9000EB51C /* selectedCountry.swift in Sources */,
 				EA26E2AC2C1C098C000EB51C /* noResults.swift in Sources */,
-				EA26E2C52C1C09CC000EB51C /* searchResult.swift in Sources */,
-				EA26E2982C1C095A000EB51C /* searchResults.swift in Sources */,
-				EA26E2E52C1C0CDF000EB51C /* initialHomePageView.swift in Sources */,
+				EA26E2C52C1C09CC000EB51C /* searchResultItem.swift in Sources */,
+				EA26E2982C1C095A000EB51C /* searchResultsList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +409,11 @@
 			isa = PBXTargetDependency;
 			target = EAA7462D2C199247004B97FB /* itune finder (iOS) */;
 			targetProxy = EA26E3052C1C837B000EB51C /* PBXContainerItemProxy */;
+		};
+		EA26E3292C1C91A6000EB51C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAA7462D2C199247004B97FB /* itune finder (iOS) */;
+			targetProxy = EA26E3282C1C91A6000EB51C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -420,6 +454,51 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hoho.itunefinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/itune finder.app/itune finder";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA26E32B2C1C91A6000EB51C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8AW45H4Y47;
+				INFOPLIST_FILE = homePageTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoho.homePageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/itune finder.app/itune finder";
+			};
+			name = Debug;
+		};
+		EA26E32C2C1C91A6000EB51C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8AW45H4Y47;
+				INFOPLIST_FILE = homePageTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoho.homePageTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -641,6 +720,15 @@
 			buildConfigurations = (
 				EA26E3082C1C837B000EB51C /* Debug */,
 				EA26E3092C1C837B000EB51C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA26E32A2C1C91A6000EB51C /* Build configuration list for PBXNativeTarget "homePageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA26E32B2C1C91A6000EB51C /* Debug */,
+				EA26E32C2C1C91A6000EB51C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

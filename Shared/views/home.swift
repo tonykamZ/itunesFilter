@@ -51,7 +51,7 @@ struct HomeView: View {
                         if !viewModel.filteredResults.isEmpty {
                             TotalSearchCountView(viewModel: viewModel)
                         }
-                        SearchResultsView(viewModel: viewModel, currentPage: $viewModel.currentPage)
+                        SearchResultsListView(viewModel: viewModel, currentPage: $viewModel.currentPage)
                         if !viewModel.filteredResults.isEmpty {
                             PageNavigationControls(currentPage: $viewModel.currentPage, totalPages: viewModel.totalPages)
                         }
