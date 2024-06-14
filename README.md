@@ -1,4 +1,4 @@
-![itunes_filter_3](https://github.com/tonykamZ/itunesFilter/assets/67361009/347b6bf0-060c-4446-bb63-7f853236be97)# itunesFilter 🎵
+# itunesFilter 🎵
 An iOS app written in SwiftUI that allows users to search, filter and sort songs using the iTunes API.
 ## Table of Contents
 
