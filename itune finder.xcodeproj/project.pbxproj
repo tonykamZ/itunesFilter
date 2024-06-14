@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA26E2972C1C095A000EB51C /* searchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E2962C1C095A000EB51C /* searchResults.swift */; };
+		EA26E2982C1C095A000EB51C /* searchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E2962C1C095A000EB51C /* searchResults.swift */; };
+		EA26E29C2C1C0967000EB51C /* searchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E29B2C1C0967000EB51C /* searchBar.swift */; };
+		EA26E29D2C1C0967000EB51C /* searchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E29B2C1C0967000EB51C /* searchBar.swift */; };
+		EA26E2A12C1C0976000EB51C /* entitySelectionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E2A02C1C0976000EB51C /* entitySelectionRow.swift */; };
+		EA26E2A22C1C0976000EB51C /* entitySelectionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E2A02C1C0976000EB51C /* entitySelectionRow.swift */; };
+		EA26E2A62C1C0982000EB51C /* loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E2A52C1C0982000EB51C /* loading.swift */; };
+		EA26E2A72C1C0982000EB51C /* loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E2A52C1C0982000EB51C /* loading.swift */; };
+		EA26E2AB2C1C098C000EB51C /* noResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E2AA2C1C098C000EB51C /* noResults.swift */; };
+		EA26E2AC2C1C098C000EB51C /* noResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E2AA2C1C098C000EB51C /* noResults.swift */; };
+		EA26E2B02C1C099B000EB51C /* totalSearchCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E2AF2C1C099B000EB51C /* totalSearchCount.swift */; };
+		EA26E2B12C1C099B000EB51C /* totalSearchCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E2AF2C1C099B000EB51C /* totalSearchCount.swift */; };
+		EA26E2B52C1C09A9000EB51C /* selectedCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E2B42C1C09A9000EB51C /* selectedCountry.swift */; };
+		EA26E2B62C1C09A9000EB51C /* selectedCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E2B42C1C09A9000EB51C /* selectedCountry.swift */; };
+		EA26E2BA2C1C09B7000EB51C /* pageNavigationControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E2B92C1C09B7000EB51C /* pageNavigationControls.swift */; };
+		EA26E2BB2C1C09B7000EB51C /* pageNavigationControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E2B92C1C09B7000EB51C /* pageNavigationControls.swift */; };
+		EA26E2BF2C1C09C1000EB51C /* searchResultsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E2BE2C1C09C1000EB51C /* searchResultsList.swift */; };
+		EA26E2C02C1C09C1000EB51C /* searchResultsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E2BE2C1C09C1000EB51C /* searchResultsList.swift */; };
+		EA26E2C42C1C09CC000EB51C /* searchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E2C32C1C09CC000EB51C /* searchResult.swift */; };
+		EA26E2C52C1C09CC000EB51C /* searchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E2C32C1C09CC000EB51C /* searchResult.swift */; };
+		EA26E2C92C1C09D9000EB51C /* homeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E2C82C1C09D9000EB51C /* homeViewModel.swift */; };
+		EA26E2CA2C1C09D9000EB51C /* homeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E2C82C1C09D9000EB51C /* homeViewModel.swift */; };
+		EA26E2CE2C1C09E6000EB51C /* iTuneFilterApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E2CD2C1C09E6000EB51C /* iTuneFilterApiResponse.swift */; };
+		EA26E2CF2C1C09E6000EB51C /* iTuneFilterApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E2CD2C1C09E6000EB51C /* iTuneFilterApiResponse.swift */; };
+		EA26E2E42C1C0CDF000EB51C /* initialHomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E2E32C1C0CDF000EB51C /* initialHomePageView.swift */; };
+		EA26E2E52C1C0CDF000EB51C /* initialHomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E2E32C1C0CDF000EB51C /* initialHomePageView.swift */; };
+		EAA7463A2C199247004B97FB /* itune_finderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA746272C199246004B97FB /* itune_finderApp.swift */; };
+		EAA7463B2C199247004B97FB /* itune_finderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA746272C199246004B97FB /* itune_finderApp.swift */; };
+		EAA7463E2C199247004B97FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAA746292C199247004B97FB /* Assets.xcassets */; };
+		EAA7463F2C199247004B97FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAA746292C199247004B97FB /* Assets.xcassets */; };
+		EAA7464B2C1992C4004B97FB /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA7464A2C1992C4004B97FB /* home.swift */; };
+		EAA7464C2C1992C4004B97FB /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA7464A2C1992C4004B97FB /* home.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA26E2962C1C095A000EB51C /* searchResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchResults.swift; sourceTree = "<group>"; };
+		EA26E29B2C1C0967000EB51C /* searchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchBar.swift; sourceTree = "<group>"; };
+		EA26E2A02C1C0976000EB51C /* entitySelectionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = entitySelectionRow.swift; sourceTree = "<group>"; };
+		EA26E2A52C1C0982000EB51C /* loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loading.swift; sourceTree = "<group>"; };
+		EA26E2AA2C1C098C000EB51C /* noResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = noResults.swift; sourceTree = "<group>"; };
+		EA26E2AF2C1C099B000EB51C /* totalSearchCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = totalSearchCount.swift; sourceTree = "<group>"; };
+		EA26E2B42C1C09A9000EB51C /* selectedCountry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectedCountry.swift; sourceTree = "<group>"; };
+		EA26E2B92C1C09B7000EB51C /* pageNavigationControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pageNavigationControls.swift; sourceTree = "<group>"; };
+		EA26E2BE2C1C09C1000EB51C /* searchResultsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchResultsList.swift; sourceTree = "<group>"; };
+		EA26E2C32C1C09CC000EB51C /* searchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchResult.swift; sourceTree = "<group>"; };
+		EA26E2C82C1C09D9000EB51C /* homeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewModel.swift; sourceTree = "<group>"; };
+		EA26E2CD2C1C09E6000EB51C /* iTuneFilterApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTuneFilterApiResponse.swift; sourceTree = "<group>"; };
+		EA26E2E32C1C0CDF000EB51C /* initialHomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = initialHomePageView.swift; sourceTree = "<group>"; };
+		EAA746272C199246004B97FB /* itune_finderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itune_finderApp.swift; sourceTree = "<group>"; };
+		EAA746292C199247004B97FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAA7462E2C199247004B97FB /* itune finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "itune finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAA746312C199247004B97FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAA746362C199247004B97FB /* itune finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "itune finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAA746382C199247004B97FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAA746392C199247004B97FB /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		EAA7464A2C1992C4004B97FB /* home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAA7462B2C199247004B97FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA746332C199247004B97FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA26E28A2C1C08EE000EB51C /* viewModels */ = {
+			isa = PBXGroup;
+			children = (
+				EA26E2C82C1C09D9000EB51C /* homeViewModel.swift */,
+			);
+			path = viewModels;
+			sourceTree = "<group>";
+		};
+		EA26E28B2C1C08F8000EB51C /* models */ = {
+			isa = PBXGroup;
+			children = (
+				EA26E2CD2C1C09E6000EB51C /* iTuneFilterApiResponse.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		EAA746212C199246004B97FB = {
+			isa = PBXGroup;
+			children = (
+				EAA746262C199246004B97FB /* Shared */,
+				EAA746302C199247004B97FB /* iOS */,
+				EAA746372C199247004B97FB /* macOS */,
+				EAA7462F2C199247004B97FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAA746262C199246004B97FB /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				EA26E28B2C1C08F8000EB51C /* models */,
+				EA26E28A2C1C08EE000EB51C /* viewModels */,
+				EAA7464F2C1992EB004B97FB /* views */,
+				EAA746272C199246004B97FB /* itune_finderApp.swift */,
+				EAA746292C199247004B97FB /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		EAA7462F2C199247004B97FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAA7462E2C199247004B97FB /* itune finder.app */,
+				EAA746362C199247004B97FB /* itune finder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAA746302C199247004B97FB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAA746312C199247004B97FB /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		EAA746372C199247004B97FB /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAA746382C199247004B97FB /* Info.plist */,
+				EAA746392C199247004B97FB /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		EAA7464F2C1992EB004B97FB /* views */ = {
+			isa = PBXGroup;
+			children = (
+				EAA7464A2C1992C4004B97FB /* home.swift */,
+				EA26E2962C1C095A000EB51C /* searchResults.swift */,
+				EA26E29B2C1C0967000EB51C /* searchBar.swift */,
+				EA26E2A02C1C0976000EB51C /* entitySelectionRow.swift */,
+				EA26E2A52C1C0982000EB51C /* loading.swift */,
+				EA26E2AA2C1C098C000EB51C /* noResults.swift */,
+				EA26E2AF2C1C099B000EB51C /* totalSearchCount.swift */,
+				EA26E2B42C1C09A9000EB51C /* selectedCountry.swift */,
+				EA26E2B92C1C09B7000EB51C /* pageNavigationControls.swift */,
+				EA26E2BE2C1C09C1000EB51C /* searchResultsList.swift */,
+				EA26E2C32C1C09CC000EB51C /* searchResult.swift */,
+				EA26E2E32C1C0CDF000EB51C /* initialHomePageView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAA7462D2C199247004B97FB /* itune finder (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAA746422C199247004B97FB /* Build configuration list for PBXNativeTarget "itune finder (iOS)" */;
+			buildPhases = (
+				EAA7462A2C199247004B97FB /* Sources */,
+				EAA7462B2C199247004B97FB /* Frameworks */,
+				EAA7462C2C199247004B97FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "itune finder (iOS)";
+			productName = "itune finder (iOS)";
+			productReference = EAA7462E2C199247004B97FB /* itune finder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAA746352C199247004B97FB /* itune finder (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAA746452C199247004B97FB /* Build configuration list for PBXNativeTarget "itune finder (macOS)" */;
+			buildPhases = (
+				EAA746322C199247004B97FB /* Sources */,
+				EAA746332C199247004B97FB /* Frameworks */,
+				EAA746342C199247004B97FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "itune finder (macOS)";
+			productName = "itune finder (macOS)";
+			productReference = EAA746362C199247004B97FB /* itune finder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAA746222C199246004B97FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					EAA7462D2C199247004B97FB = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					EAA746352C199247004B97FB = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = EAA746252C199246004B97FB /* Build configuration list for PBXProject "itune finder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAA746212C199246004B97FB;
+			productRefGroup = EAA7462F2C199247004B97FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAA7462D2C199247004B97FB /* itune finder (iOS) */,
+				EAA746352C199247004B97FB /* itune finder (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAA7462C2C199247004B97FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA7463E2C199247004B97FB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA746342C199247004B97FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA7463F2C199247004B97FB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAA7462A2C199247004B97FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA7464B2C1992C4004B97FB /* home.swift in Sources */,
+				EA26E29C2C1C0967000EB51C /* searchBar.swift in Sources */,
+				EA26E2A62C1C0982000EB51C /* loading.swift in Sources */,
+				EA26E2CE2C1C09E6000EB51C /* iTuneFilterApiResponse.swift in Sources */,
+				EA26E2A12C1C0976000EB51C /* entitySelectionRow.swift in Sources */,
+				EA26E2BA2C1C09B7000EB51C /* pageNavigationControls.swift in Sources */,
+				EA26E2C92C1C09D9000EB51C /* homeViewModel.swift in Sources */,
+				EA26E2B02C1C099B000EB51C /* totalSearchCount.swift in Sources */,
+				EAA7463A2C199247004B97FB /* itune_finderApp.swift in Sources */,
+				EA26E2BF2C1C09C1000EB51C /* searchResultsList.swift in Sources */,
+				EA26E2B52C1C09A9000EB51C /* selectedCountry.swift in Sources */,
+				EA26E2AB2C1C098C000EB51C /* noResults.swift in Sources */,
+				EA26E2C42C1C09CC000EB51C /* searchResult.swift in Sources */,
+				EA26E2972C1C095A000EB51C /* searchResults.swift in Sources */,
+				EA26E2E42C1C0CDF000EB51C /* initialHomePageView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA746322C199247004B97FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA7464C2C1992C4004B97FB /* home.swift in Sources */,
+				EA26E29D2C1C0967000EB51C /* searchBar.swift in Sources */,
+				EA26E2A72C1C0982000EB51C /* loading.swift in Sources */,
+				EA26E2CF2C1C09E6000EB51C /* iTuneFilterApiResponse.swift in Sources */,
+				EA26E2A22C1C0976000EB51C /* entitySelectionRow.swift in Sources */,
+				EA26E2BB2C1C09B7000EB51C /* pageNavigationControls.swift in Sources */,
+				EA26E2CA2C1C09D9000EB51C /* homeViewModel.swift in Sources */,
+				EA26E2B12C1C099B000EB51C /* totalSearchCount.swift in Sources */,
+				EAA7463B2C199247004B97FB /* itune_finderApp.swift in Sources */,
+				EA26E2C02C1C09C1000EB51C /* searchResultsList.swift in Sources */,
+				EA26E2B62C1C09A9000EB51C /* selectedCountry.swift in Sources */,
+				EA26E2AC2C1C098C000EB51C /* noResults.swift in Sources */,
+				EA26E2C52C1C09CC000EB51C /* searchResult.swift in Sources */,
+				EA26E2982C1C095A000EB51C /* searchResults.swift in Sources */,
+				EA26E2E52C1C0CDF000EB51C /* initialHomePageView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EAA746402C199247004B97FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EAA746412C199247004B97FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EAA746432C199247004B97FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8AW45H4Y47;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hoho.itune-finder";
+				PRODUCT_NAME = "itune finder";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAA746442C199247004B97FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8AW45H4Y47;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hoho.itune-finder";
+				PRODUCT_NAME = "itune finder";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAA746462C199247004B97FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8AW45H4Y47;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hoho.itune-finder";
+				PRODUCT_NAME = "itune finder";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EAA746472C199247004B97FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8AW45H4Y47;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hoho.itune-finder";
+				PRODUCT_NAME = "itune finder";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAA746252C199246004B97FB /* Build configuration list for PBXProject "itune finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA746402C199247004B97FB /* Debug */,
+				EAA746412C199247004B97FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAA746422C199247004B97FB /* Build configuration list for PBXNativeTarget "itune finder (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA746432C199247004B97FB /* Debug */,
+				EAA746442C199247004B97FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAA746452C199247004B97FB /* Build configuration list for PBXNativeTarget "itune finder (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA746462C199247004B97FB /* Debug */,
+				EAA746472C199247004B97FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAA746222C199246004B97FB /* Project object */;
+}
