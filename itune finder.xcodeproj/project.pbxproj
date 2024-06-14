@@ -33,6 +33,7 @@
 		EA26E2CF2C1C09E6000EB51C /* iTuneFilterApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E2CD2C1C09E6000EB51C /* iTuneFilterApiResponse.swift */; };
 		EA26E2E42C1C0CDF000EB51C /* initialHomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E2E32C1C0CDF000EB51C /* initialHomePageView.swift */; };
 		EA26E2E52C1C0CDF000EB51C /* initialHomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E2E32C1C0CDF000EB51C /* initialHomePageView.swift */; };
+		EA26E3032C1C837B000EB51C /* itunefinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26E3022C1C837B000EB51C /* itunefinderTests.swift */; };
 		EAA7463A2C199247004B97FB /* itune_finderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA746272C199246004B97FB /* itune_finderApp.swift */; };
 		EAA7463B2C199247004B97FB /* itune_finderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA746272C199246004B97FB /* itune_finderApp.swift */; };
 		EAA7463E2C199247004B97FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAA746292C199247004B97FB /* Assets.xcassets */; };
@@ -40,6 +41,16 @@
 		EAA7464B2C1992C4004B97FB /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA7464A2C1992C4004B97FB /* home.swift */; };
 		EAA7464C2C1992C4004B97FB /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA7464A2C1992C4004B97FB /* home.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA26E3052C1C837B000EB51C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAA746222C199246004B97FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAA7462D2C199247004B97FB;
+			remoteInfo = "itune finder (iOS)";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		EA26E2962C1C095A000EB51C /* searchResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchResults.swift; sourceTree = "<group>"; };
@@ -55,6 +66,9 @@
 		EA26E2C82C1C09D9000EB51C /* homeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewModel.swift; sourceTree = "<group>"; };
 		EA26E2CD2C1C09E6000EB51C /* iTuneFilterApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTuneFilterApiResponse.swift; sourceTree = "<group>"; };
 		EA26E2E32C1C0CDF000EB51C /* initialHomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = initialHomePageView.swift; sourceTree = "<group>"; };
+		EA26E3002C1C837B000EB51C /* itunefinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = itunefinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA26E3022C1C837B000EB51C /* itunefinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itunefinderTests.swift; sourceTree = "<group>"; };
+		EA26E3042C1C837B000EB51C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAA746272C199246004B97FB /* itune_finderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itune_finderApp.swift; sourceTree = "<group>"; };
 		EAA746292C199247004B97FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAA7462E2C199247004B97FB /* itune finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "itune finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,6 +80,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		EA26E2FD2C1C837B000EB51C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EAA7462B2C199247004B97FB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -99,12 +120,22 @@
 			path = models;
 			sourceTree = "<group>";
 		};
+		EA26E3012C1C837B000EB51C /* itunefinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA26E3022C1C837B000EB51C /* itunefinderTests.swift */,
+				EA26E3042C1C837B000EB51C /* Info.plist */,
+			);
+			path = itunefinderTests;
+			sourceTree = "<group>";
+		};
 		EAA746212C199246004B97FB = {
 			isa = PBXGroup;
 			children = (
 				EAA746262C199246004B97FB /* Shared */,
 				EAA746302C199247004B97FB /* iOS */,
 				EAA746372C199247004B97FB /* macOS */,
+				EA26E3012C1C837B000EB51C /* itunefinderTests */,
 				EAA7462F2C199247004B97FB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -126,6 +157,7 @@
 			children = (
 				EAA7462E2C199247004B97FB /* itune finder.app */,
 				EAA746362C199247004B97FB /* itune finder.app */,
+				EA26E3002C1C837B000EB51C /* itunefinderTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -169,6 +201,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		EA26E2FF2C1C837B000EB51C /* itunefinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA26E3072C1C837B000EB51C /* Build configuration list for PBXNativeTarget "itunefinderTests" */;
+			buildPhases = (
+				EA26E2FC2C1C837B000EB51C /* Sources */,
+				EA26E2FD2C1C837B000EB51C /* Frameworks */,
+				EA26E2FE2C1C837B000EB51C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA26E3062C1C837B000EB51C /* PBXTargetDependency */,
+			);
+			name = itunefinderTests;
+			productName = itunefinderTests;
+			productReference = EA26E3002C1C837B000EB51C /* itunefinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		EAA7462D2C199247004B97FB /* itune finder (iOS) */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EAA746422C199247004B97FB /* Build configuration list for PBXNativeTarget "itune finder (iOS)" */;
@@ -212,6 +262,10 @@
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
+					EA26E2FF2C1C837B000EB51C = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = EAA7462D2C199247004B97FB;
+					};
 					EAA7462D2C199247004B97FB = {
 						CreatedOnToolsVersion = 12.4;
 					};
@@ -235,11 +289,19 @@
 			targets = (
 				EAA7462D2C199247004B97FB /* itune finder (iOS) */,
 				EAA746352C199247004B97FB /* itune finder (macOS) */,
+				EA26E2FF2C1C837B000EB51C /* itunefinderTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		EA26E2FE2C1C837B000EB51C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EAA7462C2C199247004B97FB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -259,6 +321,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		EA26E2FC2C1C837B000EB51C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA26E3032C1C837B000EB51C /* itunefinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EAA7462A2C199247004B97FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -305,7 +375,60 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		EA26E3062C1C837B000EB51C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAA7462D2C199247004B97FB /* itune finder (iOS) */;
+			targetProxy = EA26E3052C1C837B000EB51C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		EA26E3082C1C837B000EB51C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8AW45H4Y47;
+				INFOPLIST_FILE = itunefinderTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoho.itunefinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/itune finder.app/itune finder";
+			};
+			name = Debug;
+		};
+		EA26E3092C1C837B000EB51C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8AW45H4Y47;
+				INFOPLIST_FILE = itunefinderTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoho.itunefinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/itune finder.app/itune finder";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		EAA746402C199247004B97FB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -513,6 +636,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		EA26E3072C1C837B000EB51C /* Build configuration list for PBXNativeTarget "itunefinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA26E3082C1C837B000EB51C /* Debug */,
+				EA26E3092C1C837B000EB51C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		EAA746252C199246004B97FB /* Build configuration list for PBXProject "itune finder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

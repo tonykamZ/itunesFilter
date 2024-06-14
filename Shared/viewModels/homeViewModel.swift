@@ -66,6 +66,13 @@ class HomeViewModel: ObservableObject {
     }
 
     func performSearch(completion: (() -> Void)? = nil) {
+        guard !searchText.isEmpty else {
+            DispatchQueue.main.async {
+                self.errorMessage = "Invalid request URL"
+                completion?()
+            }
+            return
+        }
         let searchTerm = searchText.replacingOccurrences(of: " ", with: "+")
         // Requirement 1A: Using provided API endpoint
         let apiUrl = "https://itunes.apple.com/search?term=\(searchTerm)&limit=200&media=music"
