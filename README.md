@@ -36,9 +36,9 @@ Filtering: Users can perform real-time filtering of search results by typing key
 
 Sorting: Users can sort songs by song name or album name.
 
-<img src="https://github.com/tonykamZ/itunesFilter/assets/67361009/107ea612-fb37-45f6-9754-4bec4522decd" width="160" height="300">
-<img src="https://github.com/tonykamZ/itunesFilter/assets/67361009/e8e02239-09c3-4d1d-a863-e23800329647" width="160" height="300">
-<img src="https://github.com/tonykamZ/itunesFilter/assets/67361009/a91ac244-32b8-40fe-9412-21102ef7216f" width="160" height="300">
+<img src="https://github.com/tonykamZ/itunesFilter/assets/67361009/107ea612-fb37-45f6-9754-4bec4522decd" width="195" height="422">
+<img src="https://github.com/tonykamZ/itunesFilter/assets/67361009/e8e02239-09c3-4d1d-a863-e23800329647" width="195" height="422">
+<img src="https://github.com/tonykamZ/itunesFilter/assets/67361009/a91ac244-32b8-40fe-9412-21102ef7216f" width="195" height="422">
 
 Feel free to explore TuneFilter and enjoy discovering new music right at your fingertips!
 
